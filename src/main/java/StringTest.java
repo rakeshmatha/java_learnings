@@ -19,11 +19,11 @@ public class StringTest {
 
 //polymorphism ********************************
         Base x = new Base();
-        Base y = new Derived();
+        Derived y = new Derived();
         Derived z = new Derived();
-        Main.DoPrint(x);
-        MultiThreading.DoPrint(y);
-        MultiThreading.DoPrint(z);
+//        Main.DoPrint(x);
+//        MultiThreading.DoPrint(y);
+//        MultiThreading.DoPrint(z);
 
 
 //contructor default necessary if we have parameterized contructor and through object we call default constructor

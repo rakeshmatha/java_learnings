@@ -8,9 +8,7 @@ public class MultiThreading extends Thread {
     public static MultiThreading event2;
     private static String APPROVED = "Approved";
 
-    public static void DoPrint(Base o) {
-        o.print();
-    }
+
 
     @Override
     public void run() {
@@ -123,7 +121,14 @@ public class MultiThreading extends Thread {
 
                 }
             }
+            //WITH AND WITHOUT SYNCHRONIZED METHOD U CAN CHECK THIS
+            MultiThreading.TheDemo theDemo = new MultiThreading.TheDemo();
+            new MultiThreading.TestThread("THREAD 1",theDemo);
+            new MultiThreading.TestThread("THREAD 2",theDemo);
+            new MultiThreading.TestThread("THREAD 3",theDemo);
         }
+
+  ///*******************************************END OF MAIN *****METHODS************************************************************************
 //creating a fixed pool
         //submit tasks and getting result to future
                   /*  Future<Integer> future = call.submit(new Task());
@@ -201,6 +206,38 @@ public class MultiThreading extends Thread {
             }
 
 
+        }
+    }
+    public static class SOP {
+        public static void print(String s) {
+            System.out.println(s+"\n");
+        }
+    }
+
+    public static class TestThread extends Thread {
+        String name;
+        TheDemo theDemo;
+        public TestThread(String name,TheDemo theDemo) {
+            this.theDemo = theDemo;
+            this.name = name;
+            start();
+        }
+        @Override
+        public void run() {
+            theDemo.test(name);
+        }
+    }
+
+    public static class TheDemo {
+        public synchronized void test(String name) {
+            for(int i=0;i<10;i++) {
+                SOP.print(name + " :: "+i);
+                try{
+                    Thread.sleep(500);
+                } catch (Exception e) {
+                    SOP.print(e.getMessage());
+                }
+            }
         }
     }
 }

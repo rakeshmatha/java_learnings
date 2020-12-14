@@ -37,11 +37,13 @@ class Base {
 
     static class Second extends First
     {
+        public String i;
+
         public Second(int j)
         {
             super(j);
             System.out.println(i);
-            this.i = j * 20;
+//            this.i = j * 20;
         }
     }
 
