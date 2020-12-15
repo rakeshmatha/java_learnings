@@ -195,7 +195,7 @@ Java Learnings:
 - [ ] Public
 21. Debugging of Java Programs in Intellij.
 
-ADVANCED JAVA Syllabus:
+ADVANCED JAVA:
 Servlets and JSPs
 1. Basics of a Web application
 - [ ] What is a web application?
@@ -245,80 +245,6 @@ Servlets and JSPs
 - [ ] JSTL basics and it's usage
 - [ ] Need for Custom Tag Library
 - [ ] Custom Tag Library implementation
-Struts Framework (version 2.x)
-1. Basics of MVC
-- [ ] What is MVC?
-- [ ] MVC Type1 and Type2 architecture
-- [ ] Why Struts framework?
-- [ ] Struts 1 overview
-- [ ] Struts 1 and Struts 2 comparison
-2. Struts 2 Architectutre
-- [ ] Architecture Diagram explanation of following components:
-- [ ] Components of Model, Views and Controller in Struts Framework
-- [ ] Interceptors
-- [ ] Model/Action classes
-- [ ] Value Stack
-- [ ] OGNL
-- [ ] Introduction to configurations; framework and application architecture
-- [ ] Declarative and Annotations configuration approaches
-3. Struts 2 set up and first Action class
-- [ ] Download JAR files
-- [ ] Struts 2 project build up and Configuration files
-- [ ] To build Action class
-- [ ] To intercept an HTTP request via Struts2 framework using Action class
-- [ ] Defining data and business logic in Action class
-- [ ] Preparing and Forwarding control to Views
-4. Struts 2 Interceptors
-- [ ] What are Interceptors
-- [ ] Responsibilities of an Interceptor
-- [ ] Mechanism of Interceptor calling in Struts 2
-- [ ] Defining Interceptors
-- [ ] Defining Interceptor stacks
-- [ ] Defining Custom Interceptors
-5. Struts 2 Tag Library
-- [ ] Introduction to tag library of Struts 2 and it's usage
-6. Struts 2 Validations
-- [ ] Validations using Validateable interface
-- [ ] Workflow interceptor mechanism for validations
-- [ ] Validations using Validateable interface
-- [ ] Validation Framework introduction and architecture
-- [ ] Validating user input with above two mechanisms
-7. Struts 2 Tiles Frameworks
-- [ ] Introduction to Tiles in a page
-- [ ] Struts2 Tiles framework introduction
-- [ ] Defining tiles.xml file
-- [ ] Configuring pages for tiles
-- [ ] A complete Tiles example with Struts2
-Hibernate Framework (version 3.x)
-1. Introduction
-- [ ] What is ORM principle?
-- [ ] Why ORM?
-- [ ] ORM implementations
-2. Hibernate Architecture
-- [ ] Introduction to Hibernate
-- [ ] Hibernate Architecture
-- [ ] What are Peristent classes?
-3. Hibernate CRUD
-- [ ] Setting up Hibernate project
-- [ ] Configuring all JARs and XML files
-- [ ] Setting up connection to DB using Hibernate
-- [ ] Performing basic CRUD operations using Hibernate API
-- [ ] Object Identity; Generator type classes
-- [ ] Using SQL with Hibernate
-- [ ] Using HQL
-- [ ] Using Criteria queries
-4. Mapping Collections and Associations
-- [ ] To define sets, mas, lists in Hibernate
-- [ ] Association Mappings: 1. One to one
-- [ ] 2 One to many
-- [ ] 3 Many to one
-- [ ] 4 Many to many
-5. Hibernate Caching
-- [ ] What is caching?
-- [ ] What are the types of caching in Hibernate?
-- [ ] Explanation of various caching mechanisms in Hibernate
-6. Using Hibernate Annotations (if time permits)
-- [ ] Sample example of using Hibernate Annotations
 Spring Framework (version 3.x)
 1. Introduction to spring
 - [ ] What is Spring?
@@ -342,4 +268,3 @@ Spring Framework (version 3.x)
 5. Spring AOP
 - [ ] What is Spring AOP?
 - [ ] Implementation of Spring AOP
-
