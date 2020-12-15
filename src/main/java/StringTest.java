@@ -19,16 +19,16 @@ public class StringTest {
 
 //polymorphism ********************************
         Base x = new Base();
-        Derived y = new Derived();
-        Derived z = new Derived();
+//        Derived y = new Derived();
+//        Derived z = new Derived();
 //        Main.DoPrint(x);
 //        MultiThreading.DoPrint(y);
 //        MultiThreading.DoPrint(z);
 
 
 //contructor default necessary if we have parameterized contructor and through object we call default constructor
-        Derived w = new Derived(3, 5);
-        System.out.println("x = " + w.x + ", y = " + z.y);
+//        Derived w = new Derived(3, 5);
+//        System.out.println("x = " + w.x + ", y = " + z.y);
         //practice geeks of geeks sets
         Base.Test2 result = new Base.Test2(10);
         System.out.println(result);
